@@ -1,0 +1,13 @@
+database:
+  url: jdbc:mariadb://localhost:3306/shine_schema
+  driver: org.mariadb.jdbc.Driver
+  user: root
+  password: shineshinevoid
+
+
+jwt_user:
+  secret: +g,]Bhv++hbbN)7?Z*qj]-G6kf15=
+  issuer: http://0.0.0.0:8080/
+  audience: http://0.0.0.0:8080/login
+  validityInMs: 86400000
+  realm: Access to 'login'
